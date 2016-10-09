@@ -1,0 +1,1 @@
+A responsive  web page pattern the  <a href="https://plus.google.com">Google+</a>.
