@@ -37,7 +37,16 @@
  	.collection_s ul{margin-left: -60px !important;} 	
 }
 
+@media only screen and (max-width: 400px)
+{
+	.con-r .collections a{margin-left: 70%;}
+	.con-l .posts{width:105% !important;top: 0px;left: -10%;}
+	.con-r .collections{top:100px !important;width: 105% !important;left: -10%;}
+	.con-l, .con-r{margin-left: -10% !important;width: 130% !important;} 
+	.side-menu{width: 60%;}
+	
 
+}
 
 
 /*part of news content*/

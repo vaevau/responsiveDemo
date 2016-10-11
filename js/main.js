@@ -2,13 +2,13 @@
 var oCollectionBtn = $('.menu-list li:nth-child(2)');
 var oIndexBtn = $('.menu-list li:first-child');
 oCollectionBtn.click(function(){
-	var searchPic = '/home/vaevau/vaevau/WebDemo/Google+/imgs/icon/search-icos.gif';
+	var searchPic = 'imgs/icon/search-icos.gif';
 	$('.news-contents').css({'padding-bottom': '400px'});
 	$('.active a').css('color','#4d4d4d');
 	$('#nav').css('background','#03a9f4');	
 	$('.search-input').css('background','#29b6f6');
 	$('.index').css('border-color','#35baf6').text('收藏集');
-	$('.search-icon').css('background','url(/home/vaevau/vaevau/WebDemo/Google+/imgs/icon/search-icos.gif)');
+	$('.search-icon').css('background','url(imgs/icon/search-icos.gif)');
 	var con = '';
 	for(var i=0; i<3;i++){	
 	/*nav + = "<div></div>"*/	
